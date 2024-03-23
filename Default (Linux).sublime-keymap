@@ -1,0 +1,87 @@
+[
+    {
+        "keys": ["alt+k"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 1,
+            "cmd": "up"
+        }
+    },
+    {
+        "keys": ["alt+ctrl+k"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up"
+        }
+    },
+    {
+        "keys": ["alt+j"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 1,
+            "cmd": "down"
+        }
+    },
+    {
+        "keys": ["alt+ctrl+j"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down"
+        }
+    },
+    {
+        "keys": ["alt+shift+j"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 1,
+            "cmd": "down_select"
+        }
+    },
+    {
+        "keys": ["alt+ctrl+shift+j"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "down_select"
+        }
+    },
+    {
+        "keys": ["alt+shift+k"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 1,
+            "cmd": "up_select"
+        }
+    },
+    {
+        "keys": ["alt+ctrl+shift+k"],
+        "command": "line_jumper",
+        "args": {
+            "number_of_lines": 10,
+            "cmd": "up_select"
+        }
+    },
+
+    { "keys": ["ctrl+alt+b"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+shift+alt+b"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+
+    { "keys": ["ctrl+alt+n"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["ctrl+shift+alt+n"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+
+    { "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+shift+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+
+    { "keys": ["ctrl+alt+h"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["ctrl+alt+shift+h"], "command": "move", "args": {"by": "word_ends", "forward": false, "extend": true} },
+    { "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "words", "forward": true} },
+    { "keys": ["ctrl+alt+shift+l"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+]

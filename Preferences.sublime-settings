@@ -1,0 +1,12 @@
+{
+	"ignored_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"Vintage",
+	],
+	"color_scheme": "Monokai Gravity.sublime-color-scheme",
+	"index_files": true,
+	"theme": "Default Dark.sublime-theme",
+	"font_size": 9,
+}

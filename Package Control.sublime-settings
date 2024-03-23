@@ -1,0 +1,33 @@
+{
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Scheme - Bass",
+		"ColorHelper",
+		"Dracula Color Scheme",
+		"FileIcons",
+		"LineJumper",
+		"LSP",
+		"LSP-eslint",
+		"LSP-file-watcher-chokidar",
+		"LSP-html",
+		"LSP-intelephense",
+		"LSP-pyright",
+		"MarkdownPreview",
+		"Package Control",
+		"PHPSnippets",
+		"Sesame",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-php",
+		"Theme - Gravity",
+		"WordingStatus",
+		"Yin color scheme",
+	],
+	"in_process_packages":
+	[
+	],
+}
