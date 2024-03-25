@@ -84,4 +84,5 @@
     { "keys": ["ctrl+alt+shift+h"], "command": "move", "args": {"by": "word_ends", "forward": false, "extend": true} },
     { "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "words", "forward": true} },
     { "keys": ["ctrl+alt+shift+l"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+    { "keys": ["ctrl+alt+i"], "command": "lsp_hover"},
 ]
