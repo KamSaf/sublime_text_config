@@ -5,6 +5,12 @@
   "linters": {
     "flake8" : {
       "args" : ""
+    },
+    "eslint": {
+        "selector": "source.js - meta.attribute-with-value"
+    },
+    "phpcs": {
+        
     }
   }
 }

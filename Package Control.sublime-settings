@@ -17,12 +17,14 @@
 		"LSP-pyright",
 		"MarkdownPreview",
 		"Package Control",
+		"phpfmt",
 		"PHPSnippets",
 		"Sesame",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
 		"Theme - Gravity",
 		"WordingStatus",
 		"Yin color scheme",
@@ -30,4 +32,5 @@
 	"in_process_packages":
 	[
 	],
+	"debug": false,
 }
